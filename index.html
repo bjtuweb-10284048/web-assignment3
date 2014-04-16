@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link class="bootstrap library" rel="stylesheet" type="text/css" href="http://sandbox.runjs.cn/js/sandbox/bootstrap-2.2.0/css/bootstrap.min.css">
+	<script class="bootstrap library" src="http://sandbox.runjs.cn/js/sandbox/jquery/jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script class="bootstrap library" src="http://sandbox.runjs.cn/js/sandbox/bootstrap-2.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+<title>Login Test</title>
+</head>
+
+<body>
+
+新建记录
+
+<form action="adduser.php" method="post">
+  Name:
+  <input type="text" name="name_new" />
+  Pwd:
+  <input type="text" name="pwd_new" />
+  <input type="submit" value="创建"/>
+</form>
+
+</br></br>
+
+验证登录
+<form action="welcome.php" method="post">
+  Name:
+  <input type="text" name="name" />
+  Pwd:
+  <input type="text" name="pwd" />
+  <input type="submit" />
+</form>
+
+
+</body>
+</html>
